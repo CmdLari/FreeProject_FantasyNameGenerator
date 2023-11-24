@@ -48,7 +48,6 @@ class fantasyNameGenerator:
             if x%2==0:
                 name+=self.addConsonant()
                 self.checkLetterBefore(name)
-
         return name
     
 
